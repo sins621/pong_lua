@@ -15,7 +15,6 @@ function love.load()
 end
 
 function love.update(dt)
-	print(dt)
 	Player:update(dt)
 	Ball:update(dt)
 	AI:update(dt)
